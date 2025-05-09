@@ -11,7 +11,7 @@ const byte broadcastIP[] = {255, 255, 255, 255};
 byte udpPacket[] = { 252, MODEL, 0, 0, 0 };
 #define UDPPACKETSIZE 2
 
-#define LED_PIN     D4
+#define LED_PIN     D2
 #define NUM_LEDS    39
 #define BRIGHTNESS  255
 #define LED_TYPE    WS2811
